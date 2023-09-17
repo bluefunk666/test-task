@@ -1,0 +1,35 @@
+
+.chat-container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#chat-scroll {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+#chat-window {
+
+}
+
+#message-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-top: 1px solid #ccc;
+}
+
+
+@media (max-width: 600px) {
+    .chat-container {
+        max-width: 100%;
+    }
+    #chat-scroll {
+        max-height: 300px;
+    }
+}
